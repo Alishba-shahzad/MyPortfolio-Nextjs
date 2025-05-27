@@ -51,27 +51,27 @@ export const ContactMe = () => {
         </div>
 
         {/* Contact Form */}
-        <form className="bg-orange-100 shadow-md rounded-lg p-6 space-y-4" onSubmit={onSubmit} >
+        <form className="bg-orange-100 border shadow-md rounded-lg p-6 space-y-4" onSubmit={onSubmit} >
           <input
             value={name}
             onChange={ (e) => setName(e.target.value)}
             type="text"
             placeholder="Name"
-            className="w-full bg-orange-50 p-3 border rounded focus:outline-none focus:ring-2 focus:ring-orange-500"
+            className="w-full bg-orange-50 p-3 border border-orange-400 rounded focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
           <input
           value={email}
           onChange={(e)=> setEmail(e.target.value)}
             type="email"
             placeholder="Email"
-            className="w-full bg-orange-50 p-3 border rounded focus:outline-none focus:ring-2 focus:ring-orange-500"
+            className="w-full bg-orange-50 p-3 border border-orange-400 rounded focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
           <textarea
           value={message}
           onChange={(e)=>setMessage(e.target.value)}
             placeholder="Message"
             rows={5}
-            className="w-full bg-orange-50 p-3 border rounded focus:outline-none focus:ring-2 focus:ring-orange-500"
+            className="w-full bg-orange-50 p-3 border border-orange-400 rounded focus:outline-none focus:ring-2 focus:ring-orange-500"
           ></textarea>
           <button
           
