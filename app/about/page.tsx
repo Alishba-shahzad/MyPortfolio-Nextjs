@@ -61,7 +61,7 @@ const AboutMe = () => {
             Hello, I Am <span className="text-orange-500">Alishba Shehzad</span>
           </h3>
           <p className="text-gray-700 mb-6">
-            I’m a frontend developer passionate about creating engaging user experiences with clean
+            I&apos;m a frontend developer passionate about creating engaging user experiences with clean
             design and fast code.
           </p>
           <ul className="text-gray-800 space-y-2 mb-6 text-sm sm:text-base">

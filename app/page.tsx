@@ -13,12 +13,12 @@ const HeroSection: React.FC = () => {
 
       <section className="flex flex-col-reverse lg:flex-row items-center justify-between px-10 py-20 max-w-7xl mx-auto">
         <div className="max-w-xl space-y-6">
-          <p className="text-gray-600">
-            Hello! I’m{" "}
+        <p className="text-gray-600">
+        Hello! I&apos;m{" "}
             <span className="text-orange-600 font-semibold">Alishba Naz</span>
           </p>
           <h1 className="text-4xl font-bold text-gray-900">
-            I'm a{" "}
+            I&apos;m a{" "}
             <span className="text-orange-600">
               <Typewriter
                 words={[

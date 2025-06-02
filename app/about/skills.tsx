@@ -3,7 +3,7 @@ import React from "react";
 
 type Skill = {
   name: string;
-  level: number; // 0–100
+  level: number; 
 };
 
 const skills: Skill[] = [
