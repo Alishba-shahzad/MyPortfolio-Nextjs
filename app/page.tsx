@@ -37,9 +37,7 @@ const HeroSection: React.FC = () => {
             </span>
           </h1>
           <p className="text-gray-700">
-            I'm learning and growing every day as a frontend developer. I enjoy
-            turning ideas into websites and making sure everything looks nice
-            and works well.
+            {"I'm learning and growing every day as a frontend developer. I enjoy turning ideas into websites and making sure everything looks and works well."}
           </p>
           <div className="flex gap-4">
             <a href="/contact">
@@ -57,7 +55,7 @@ const HeroSection: React.FC = () => {
 
           <Image
             src="/"
-            alt=" "
+            alt=""
             fill
             className="rounded-full object-cover z-15"
           />

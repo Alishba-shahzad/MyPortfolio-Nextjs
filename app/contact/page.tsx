@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Navbar from '@/component/Navbar';
 import { FormEvent, useState } from 'react';
 

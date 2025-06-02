@@ -1,6 +1,5 @@
 // components/Skills.tsx
 import React from "react";
-import { FaHtml5,FaCss3,FaJava,FaReact } from 'react-icons/fa';
 
 type Skill = {
   name: string;
