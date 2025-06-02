@@ -1,4 +1,5 @@
-// components/Skills.tsx
+'use client'; // Only if you're using client features (like interactivity)
+
 import React from "react";
 
 type Skill = {
@@ -15,15 +16,12 @@ const skills: Skill[] = [
   { name: "Nextjs", level: 50 },
 ];
 
-
 const Skills: React.FC = () => {
   return (
     <section className="w-full text-black md:px-15">
       <h2 className="text-2xl font-bold mb-8 text-center">My Skills</h2>
 
       <div className="flex flex-col md:flex-row gap-10">
-       
-        {/* Skills Card */}
         <div className="bg-orange-50 border border-black rounded-xl p-4 flex-1">
           {skills.map((skill) => (
             <div key={skill.name} className="mb-2">
