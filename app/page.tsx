@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
                 loop={true}
                 cursor
                 cursorStyle="|"
-                typeSpeed={70}
+                typeSpeed={75}
                 deleteSpeed={50}
                 delaySpeed={1500}
               />
