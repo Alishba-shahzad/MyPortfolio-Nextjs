@@ -9,6 +9,7 @@ import Button from "@/component/Button";
 const HeroSection: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
+
       <Navbar />
 
       <section className="flex flex-col-reverse lg:flex-row items-center justify-between px-10 py-20 max-w-7xl mx-auto">
